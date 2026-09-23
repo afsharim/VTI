@@ -1,0 +1,30 @@
+# Exclude local files at or above GitHub's 100 MiB file limit.
+# Git ignores paths, not sizes; rescan when adding large artifacts.
+/data/coco/.nfs00000000004403ac00000c02
+/data/coco/annotations_trainval2014.zip
+/data/coco/annotations_trainval2014/instances_train2014.json
+/data/coco/annotations_trainval2014/instances_val2014.json
+/data/coco/annotations_trainval2014/person_keypoints_train2014.json
+/data/coco/dataset_coco.json
+/data/coco/karpathy/dataset_coco.json
+/data/coco/test2014.zip
+/data/coco/train2014.zip
+/data/coco/val2014.zip
+/experiments/data/MMHal-Bench/test_data.zip
+/experiments/data/coco/annotations_trainval2014.zip
+/experiments/data/coco/annotations_trainval2014/instances_train2014.json
+/experiments/data/coco/annotations_trainval2014/instances_val2014.json
+/experiments/data/coco/annotations_trainval2014/person_keypoints_train2014.json
+/experiments/data/coco/test2014.zip
+/experiments/data/coco/train2014.zip
+/experiments/data/coco/val2014.zip
+/saved_results/absolute_visual_clean_states.pt
+/saved_results/absolute_visual_noisy_states.pt
+/saved_results/raw_pre_pca_visual_directions.pt
+
+# Generated Python caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

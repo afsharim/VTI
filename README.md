@@ -82,6 +82,20 @@ python ./experiments/eval/run_mmhal_vti.py \
 	--mask_ratio 0.99 \
 	--num_trials 50 
 ```
+my code:
+```
+python ./experiments/eval/run_mmhal_vti.py \
+	--alpha_image 0.9 \
+	--alpha_text 0.9 \
+	--seed 42 \
+	--image-folder ./experiments/data/COCO/val2014/ \
+	--data-file ./experiments/data/COCO \
+	--answers-file ./results/MMHal_answer.jsonl \
+	--num_demos 70 \
+	--mask_ratio 0.99 \
+	--num_trials 50
+```
+
 
 - To evaluate
 ```
